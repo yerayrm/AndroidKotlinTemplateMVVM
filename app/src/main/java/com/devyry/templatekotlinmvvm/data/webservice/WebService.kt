@@ -1,4 +1,4 @@
-package com.devyry.templatekotlinmvvm.repository.webservice
+package com.devyry.templatekotlinmvvm.data.webservice
 
 import com.devyry.templatekotlinmvvm.model.User
 import retrofit2.Call

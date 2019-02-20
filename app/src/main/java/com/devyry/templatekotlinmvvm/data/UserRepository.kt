@@ -1,9 +1,9 @@
-package com.devyry.templatekotlinmvvm.repository
+package com.devyry.templatekotlinmvvm.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.devyry.templatekotlinmvvm.model.User
-import com.devyry.templatekotlinmvvm.repository.webservice.WebService
+import com.devyry.templatekotlinmvvm.data.webservice.WebService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

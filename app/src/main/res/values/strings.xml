@@ -1,3 +1,7 @@
 <resources>
+
     <string name="app_name">TemplateKotlinMVVM</string>
+
+    <string name="filter_view_template_kotlin_mvvm">Added deep linking</string>
+
 </resources>
