@@ -1,6 +1,7 @@
 package com.devyry.templatekotlinmvvm.di
 
 import android.app.Application
+import com.devyry.templatekotlinmvvm.App
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
@@ -21,6 +22,6 @@ interface ApplicationComponent {
 
     }
 
-    fun inject(application: Application)
+    fun inject(app: App)
 
 }

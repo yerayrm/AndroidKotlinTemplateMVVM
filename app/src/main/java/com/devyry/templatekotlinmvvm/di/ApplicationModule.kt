@@ -1,7 +1,8 @@
 package com.devyry.templatekotlinmvvm.di
 
-import android.app.Application
 import android.content.Context
+import com.devyry.templatekotlinmvvm.App
+import com.devyry.templatekotlinmvvm.data.UserRepository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Named
@@ -17,8 +18,14 @@ class ApplicationModule {
     @Provides
     @Named(APPLICATION_CONTEXT)
     @Singleton
-    internal fun provideContext(application: Application): Context {
+    internal fun provideContext(application: App): Context {
         return application
+    }
+
+    @Provides
+    @Singleton
+    internal fun provideUserRepository(userRepository: UserRepository): UserRepository {
+        return UserRepository()
     }
 
 

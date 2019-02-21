@@ -1,5 +1,6 @@
 package com.devyry.templatekotlinmvvm.ui.views.profile
 
+/*
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,9 +10,6 @@ import androidx.lifecycle.ViewModelProviders
 import com.devyry.templatekotlinmvvm.R
 import com.devyry.templatekotlinmvvm.ui.base.BaseFragment
 
-/**
- * Created by Yeray Rguez on 12/02/2019.
- */
 class UserProfileFragment : BaseFragment() {
 
     private val UID_KEY = "uid"
@@ -35,3 +33,4 @@ class UserProfileFragment : BaseFragment() {
     }
 
 }
+*/
